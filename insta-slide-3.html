@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Slide 3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f0f0;
+        }
+        
+        .slide {
+            width: 1080px;
+            height: 1080px;
+            background: linear-gradient(135deg, #e8dae8 0%, #d5c5e0 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 120px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        
+        .border {
+            position: absolute;
+            top: 60px;
+            left: 60px;
+            right: 60px;
+            bottom: 60px;
+            border: 3px solid rgba(107, 91, 115, 0.4);
+        }
+        
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+        
+        .quote {
+            font-family: 'Georgia', serif;
+            font-size: 64px;
+            line-height: 1.5;
+            color: #5a4859;
+            font-style: italic;
+            font-weight: 600;
+            margin-bottom: 50px;
+        }
+        
+        .attribution {
+            font-family: 'Georgia', serif;
+            font-size: 40px;
+            color: #6b5b73;
+            letter-spacing: 2px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="border"></div>
+        <div class="content">
+            <div class="quote">
+                "True wellness is the nourishment of body, mind, and soul"
+            </div>
+            <div class="attribution">— Whole Body & Soul</div>
+        </div>
+    </div>
+</body>
+</html>

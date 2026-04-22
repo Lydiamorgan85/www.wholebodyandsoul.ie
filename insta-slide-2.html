@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Slide 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f0f0;
+        }
+        
+        .slide {
+            width: 1080px;
+            height: 1080px;
+            background: linear-gradient(135deg, #c9b8d9 0%, #b8a8c9 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        
+        .border {
+            position: absolute;
+            top: 60px;
+            left: 60px;
+            right: 60px;
+            bottom: 60px;
+            border: 3px solid rgba(107, 91, 115, 0.4);
+        }
+        
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+        
+        h2 {
+            font-family: 'Georgia', serif;
+            font-size: 72px;
+            color: #5a4859;
+            margin-bottom: 60px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        
+        .practice {
+            font-family: 'Georgia', serif;
+            font-size: 56px;
+            color: white;
+            margin: 35px 0;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        
+        .symbol {
+            font-size: 48px;
+            color: #e8dae8;
+            margin: 0 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="border"></div>
+        <div class="content">
+            <h2>We hold space for</h2>
+            
+            <div class="practice"><span class="symbol">🌙</span> Sound Healing</div>
+            <div class="practice"><span class="symbol">🌬️</span> Breathwork</div>
+            <div class="practice"><span class="symbol">🖤</span> Shadow Work</div>
+            <div class="practice"><span class="symbol">🌿</span> Sacred Circles</div>
+        </div>
+    </div>
+</body>
+</html>
